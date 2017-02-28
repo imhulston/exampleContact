@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Weave Code</title>
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <h1></h1>
+        <div class="weaveImg">
+            <img src="../images/logo.png">
+        </div>
+        <div class="setimg">
+            <img src="../images/settings.png" style="height: 30px; width: 30px;">
+        </div>
+        <form action="../html/contact_us.html" method="get">
+            <label>
+                <input type="search" autocomplete="off">
+                <div class="srchimg">
+                    <img src="../images/search.png" style="height: 20px; width: 20px">
+                </div>
+            </label>
+        </form>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="selected">Home</a></li>
+                    <li><a href="projects.html" class="selected">Projects</a></li>
+                    <li><a href="news.html" class="selected">News</a></li>
+                    <li><a href="career.html" class="selected">Careers</a></li>
+                    <li><a href="contact_us.html" class="selected">Contact Us</a></li>
+                    <li><a href="about_us.html" class="selected">About Us</a></li>
+                    <li><a href="case_studies.html" class="selected">Case Studies</a></li>
+                    <li><a href="blog.html" class="selected">Blog</a></li>
+                    <li><a href="customers.html" class="selected">Customers</a></li>
+                </ul>
+            </nav>
+        <div class="topban">
+            <img src="../images/banner-top.png">
+        </div>
+        <div class="moreinfo">
+            <h4>For more information...</h4>
+            <h1>Contact Us</h1>
+        </div>
+
+        <h2>Send us your details to request our latest brochure.</h2>
+
+        <div class="contact">
+             <form action="contact.php" method="post"> <!-- Change mamp root folder -->
+                <label>
+                    
+                    <input type="text"  name="firstname" placeholder="First Name"autocomplete="off"<?php echo isset($fields['name'] ? 'value"' . e($fields['name']) . '"' : '') ?>
+                </label>
+                <label>
+                    
+                    <input type="text"  name="lastname" placeholder="Last Name"autocomplete="off"<?php echo isset($fields['name'] ? 'value"' . e($fields['name']) . '"' : '') ?>
+                </label>
+                <label>
+                    
+                    <input type="text" name="email" placeholder="Email" autocomplete="off"<?php echo isset($fields['email'] ? 'value"' . e($fields['email']) . '"' : '') ?>
+                </label>
+                <label>
+                    
+                    <input type="text" name="confirmemail" placeholder="Confirm Email" autocomplete="off"<?php echo isset($fields['email'] ? 'value"' . e($fields['email']) . '"' : '') ?>
+                </label>
+                <label>
+                    <h6>Date of Birth</h6>
+                    <select id="day" name="Day">
+                        <option value="13">13</option>
+                        <option value="#">-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </label>
+                <label> 
+                    <select id="month" name="Month">
+                        <option value="febuary">Febuary</option>
+                        <option value="month">-</option>
+                        <option value="january">January</option>
+                        <option value="febuary">Febuary</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                </label>
+                <select id="year" name="year">
+                    <option value="2017">2017</option>
+                    <script>
+                        // var mydate = newDate();
+                        // var year = myDate.getFullYear();
+                        for (var i = 1900; i < 2030; i++) {
+                            document.write('<option value="'+i+'">'+i+'</option>');
+                        }
+                    </script>
+                 </select>
+                <input type="Submit" value="send">
+            </form>
+        </div>
+
+        <div id="map"></div>
+
+<!-- THE 3 CONTACT OPTION FIELDS -->
+<!-- Live chat -->
+
+        <div class="chat">
+        <p>Start a Live Chat with one of our Tech Team</p> 
+            <a href="#" class="button">Start</a>
+            <div class="chatimg">
+                <img src="../images/button-icon-livechat.png" style="width: 40px; height: 40px;"> 
+            </div> 
+        </div>
+
+<!-- skype -->
+
+        <div class="skype">
+        <p>Start a Live Chat with one of our Tech Team</p> 
+            <a href="skype:echo123?call" class="button">Start</a>
+            <div class="skypeimg">
+            <img src="../images/button-icon-skype.png" style="width: 40px; height: 40px;"> 
+             </div>    
+        </div>
+
+<!-- Email -->
+
+        <div class="mail">
+        <p>Start a Live Chat with one of our Tech Team</p> 
+            <a href="mailto:weave@code" class="button">Send</a>
+            <div class="emailimg">
+                <img src="../images/button-icon-email.png" style="width: 40px; height: 40px;"> 
+            </div> 
+        </div>
+
+        <div class="banbot">
+            <img src="../images/banner-bottom.png">
+        </div>
+        <div class="thankyou">
+            <h4>We will be n touch</h4>
+            <h1>Thank You</h1>
+        </div>
+        <footer>
+            <menu>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Copywrite Weave Code 2016.</a></li>
+                </ul>
+            </menu>
+        </footer>
+        <script>
+            var day = new Date();
+            document.getElementById("day").InnerHTML = day;
+        </script>
+        <script>
+          function initMap() {
+            var uluru = {lat: 53.595787, lng: -2.294465};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 10,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+        </script>
+  </body>
+</html>

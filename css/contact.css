@@ -1,0 +1,387 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden; /*STOPPING HORRIZONTAL SCROLLING*/
+}
+
+.weaveImg {
+    margin: 0px 0px 15px 35px;
+}
+
+/*form {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+}*/
+
+input[type=search], search {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: -57px;
+    left: 420px;
+    width: 380px;
+    height: 40px;
+    font-size: 22px
+}
+
+.srchimg {
+    margin: -75px 0px 0px 805px;
+    padding: 0px;
+}
+
+.setimg {
+    margin: -60px 33px 0px 0px;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #d7dbdd; /*light grey*/
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    border-right: 1px solid #000;
+    float: left;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin: 0px 39.2px ;
+    padding: ;
+    line-height: 38px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #d75404; /*orange*/
+}
+
+nav ul li a:active {
+    text-decoration: underline;
+    color: #d75404; /*orange*/
+}
+
+.topban {
+    margin: 0px;
+}
+
+.moreinfo {
+    width: 372px;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    border: 5px solid #d75404;
+    border-radius: 10px;
+    position: relative;
+    top: -190px;
+    left: 35px;
+    z-index: 1;
+}
+
+h4 {
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    color: #888;
+    font-size: 25px;
+    font-weight: bold;
+    width: 600px;
+    margin: -120px 0px 0px 350px;
+}
+
+#map {
+    width: 380px;
+    height: 350px;
+    margin: -352px 0px 0px 35px;
+    border: 1.5px solid #d75404;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 795px;
+    height: 350px;
+    background-color: #cacfd2;
+    border: 1.5px solid #d75404;
+    border-radius: 10px;
+    margin: 50px 0px 0px 450px;
+}
+
+input[name=firstname], firstname {
+    width: 340px;
+    height: 40px;
+    margin: 50px 0px 0px 30px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #d75404;
+    border-radius: 10px
+    
+}
+
+input[name=lastname], lastname {
+    width: 340px;
+    height: 40px;
+    margin: 0px 0px 0px -356px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #d75404;
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+}
+
+input[name=email] {
+    width: 340px;
+    height: 40px;
+    margin: 5px 0px 0px 410px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #d75404;
+    border-radius: 10px;
+    position: relative;
+    top: -47px;
+}
+
+input[name=confirmemail] {
+    width: 340px;
+    height: 40px;
+    margin: 0px 0px 0px 410px;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+    border: 1px solid #d75404;
+    border-radius: 10px;
+    position: relative;
+    top: 1px;
+}
+
+h6 {
+    font-size: 14px
+    color: #888;
+    margin: 20px 40px 0px 30px;
+
+}
+
+#day {
+    margin: 5px 20px 0px 30px;
+    padding: 20px;
+    height: 40px;
+    width: 50px;
+}
+
+#month {
+    margin: 5px 20px 0px 30px;
+    padding: 20px;
+    height: 40px;
+    width: 100px;
+}
+#year {
+    margin: 5px 20px 0px 30px;
+    padding: 20px;
+    height: 40px;
+    width: 90px;
+}
+
+input[type=submit] {
+    margin: 0px 0px 0px 100px;
+    padding: 0px;
+    width: 150px;
+    height: 45px;
+    font-size: 16px
+}
+
+p {
+    margin: 20px 0px 0px 10px;
+    color: #222;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.chat {
+    width: 380px;
+    height: 180px;
+    background-color: #cacfd2;
+    border: 1.5px solid #d75404;
+    border-radius: 10px;
+    margin: 30px 0px 0px 35px;
+    padding: ;
+}
+
+.button {
+    background-color: #d75404;
+    border-radius: 10px;
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    margin: 20px 0px 0px 121px;
+    padding: 0px 0px 0px 25px;
+    text-align: ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6em;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.chatimg {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: -42px;
+    left: 210px;
+    cursor: pointer;
+}
+
+.skype {
+    width: 380px;
+    height: 180px;
+    background-color: #cacfd2;
+    border: 1.5px solid #d75404;
+    border-radius: 10px;
+    margin: -182px 0px 0px 450px;
+}
+
+.button {
+    background-color: #d75404;
+    border-radius: 10px;
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    margin: 20px 0px 0px 121px;
+    padding: 0px 0px 0px 25px;
+    text-align: ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6em;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.skypeimg {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: -42px;
+    left: 210px;
+    cursor: pointer;
+}
+
+.mail {
+    width: 380px;
+    height: 180px;
+    background-color: #cacfd2;
+    border: 1.5px solid #d75404;
+    border-radius: 10px;
+    margin: -182px 0px 0px 865px;
+}
+
+.button {
+   background-color: #d75404;
+    border-radius: 10px;
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    margin: 20px 0px 0px 121px;
+    padding: 0px 0px 0px 25px;
+    text-align: ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6em;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.emailimg {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: -42px;
+    left: 210px;
+    cursor: pointer;
+}
+
+.banbot {
+    margin: 30px 0px 0px 0px;
+}
+
+.thankyou {
+    width: 372px;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    border: 5px solid #d75404;
+    border-radius: 10px;
+    position: relative;
+    top: -200px;
+    left: 35px;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #444;
+    margin: -170px 0px 0px 0px;
+}
+
+menu {
+    width: 1170px;
+    height: 100px;
+    margin: 25px 35px 0px 35px;
+
+    
+    border-bottom: 1px solid #999;
+    text-align: center;
+    float: left;
+}
+
+menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+menu ul li {
+    display: inline-block;
+    border-right: 1px solid #999;
+    text-decoration: none;
+    color: #999;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px;
+    line-height: 38px;
+    color: #999;
+    font-size: 0.9em;
+}
+
+menu ul li:last-child {
+    border-right: none;
+}
+
+menu ul li a {
+    text-decoration: none;
+    color: #999;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px;
+    line-height: 38px;
+    color: #999;
+    font-size: 0.9em;
+}
+
+menu ul li a:hover {
+    text-decoration: underline;
+}
